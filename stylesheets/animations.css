@@ -1,0 +1,69 @@
+@keyframes text-color-change {
+  0% {
+    color: #fffaee;
+  }
+  100% {
+    color: #ae1100;
+  }
+}
+@keyframes animeted-text {
+  0%,
+  10%,
+  20%,
+  30%,
+  100% {
+    transform: translateX(0);
+  }
+  50%,
+  55%,
+  60% {
+    transform: translateX(-32vw);
+  }
+}
+
+@keyframes animeted-dash {
+  0%,
+  10%,
+  20%,
+  30%,
+  100% {
+    transition: width(0);
+  }
+  50%,
+  55%,
+  60% {
+    transition: width(0.8vw);
+  }
+}
+
+@keyframes animeted-ball {
+  0%,
+  10%,
+  20%,
+  30%,
+  100% {
+    transform: translateY(50vw);
+  }
+  50%,
+  55%,
+  60% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes animeted-snowflakes-left {
+  0%,
+  10%,
+  20%,
+  30% {
+    transform: translateY(50vw);
+    transform: translateX(50vw);
+  }
+  50%,
+  55%,
+  60%,
+  100% {
+    transform: translateY(0);
+    transform: translateX(50vw);
+  }
+}

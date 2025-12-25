@@ -30,6 +30,38 @@
   font-size: 2.8vw;
   font-family: Helvetica;
   color: #fffaee;
+  /* animation: text-color-change 1s infinite alternate; */
+}
+.word1 {
+  animation: text-color-change 1s infinite alternate;
+}
+.word2 {
+  animation: text-color-change 1s infinite alternate;
+}
+.word3 {
+  animation: text-color-change 1s infinite alternate;
+}
+.word4 {
+  animation: text-color-change 1s infinite alternate;
+}
+.word5 {
+  animation: text-color-change 1s infinite alternate;
+}
+
+.word1:nth-child(1) {
+  animation-delay: 0s;
+}
+.word2:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.word3:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.word4:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.word5:nth-child(5) {
+  animation-delay: 0.8s;
 }
 .screen-1 h2 {
   text-align: center;
@@ -38,24 +70,203 @@
   color: #fffaee;
   margin: 0 auto;
 }
+/* .snow {
+  display: flex;
+  flex-direction: column;
+} */
+.snowflake1 {
+  position: absolute;
+  top: 7vw;
+  left: 5vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake2 {
+  position: absolute;
+  top: 8vw;
+  left: 30vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake3 {
+  position: absolute;
+  top: 9vw;
+  left: 61vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake4 {
+  position: absolute;
+  top: 9.8vw;
+  left: 79vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake5 {
+  position: absolute;
+  top: 6vw;
+  left: 92vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake6 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake7 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake8 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake9 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake10 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake11 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake12 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake13 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake14 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake15 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake16 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake17 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake18 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake19 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake20 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake21 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake22 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake24 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
+.snowflake25 {
+  position: absolute;
+  top: 7vw;
+  left: 3vw;
+  width: 3.1vw;
+  height: 3.1vw;
+}
 
 .screen-2 {
   display: flex;
   background-color: #ae1100;
   flex-wrap: nowrap;
-  padding: 0.8vw 2vw;
-  gap: 16.3vw;
   height: 10.8vw;
+  padding: 0.8vw 2vw;
+  /* gap: 16.3vw; */
 }
 .screen-2 h1 {
   font-size: 2.8vw;
   font-family: Helvetica;
   color: #fffaee;
+  animation: animeted-text 4s infinite ease-in-out;
 }
 .screen-2 h2 {
   font-size: 8.5vw;
   font-family: Stark;
   color: #fffaee;
+}
+.date {
+  animation: animeted-text 4s infinite ease-in-out;
+}
+.dash {
+  animation: animeted-dash 4s infinite ease-in-out;
 }
 
 .screen-3 {
@@ -66,12 +277,47 @@
 .first-part {
   width: 47.1vw;
 }
+.child {
+  height: 52.3vw;
+  position: absolute;
+  top: 71vw;
+  padding: 0 2.5vw;
+}
+.back-for-child {
+  height: 45.5vw;
+  position: absolute;
+  top: 65vw;
+  padding: 0 6.6vw;
+}
 .second-part {
+  /* overflow: hidden; */
+  display: flex;
+  flex-wrap: nowrap;
   width: 52.9vw;
   background-color: #ae1100;
 }
+.wreath {
+  height: 20.9vw;
+  width: 28.2vw;
+  background-color: #12131d;
+}
+.gift {
+  height: 20.9vw;
+  width: 28.2vw;
+  background-color: #ae1100;
+}
+.star {
+  height: 20.9vw;
+  width: 28.2vw;
+  background-color: #ae1100;
+}
+.сhristmas-tree {
+  height: 62.5vw;
+  width: 24.7vw;
+  background-color: #12131d;
+}
 
-.screen-4 {
+/* /* .screen-4 {
   display: flex;
   flex-wrap: nowrap;
   background-color: #12131d;
@@ -84,12 +330,13 @@
 .screen-4 second-part {
   width: 39.2vw;
 } */
-.first-block {
+
+/* .first-block {
   width: 60.8vw;
 }
 .second-block {
   width: 39.2vw;
-}
+} */
 
 .screen-5 {
   height: 31.7vw;
@@ -98,6 +345,9 @@
 .screen-6 {
   height: 62.5vw;
   background-color: #ae1100;
+  height: 51.2vw;
+  /* background-image: url("../images/ball.svg"); */
+  background-size: cover;
 }
 .screen-6 h1 {
   font-size: 11.3vw;
@@ -105,6 +355,26 @@
   color: #fffaee;
   text-align: center;
   padding: 1.7vw;
+}
+.ball {
+  width: 100vw;
+  height: 58.3vw;
+  position: absolute;
+  top: 160.4vw;
+  /* animation: animeted-ball 4s infinite; */
+  overflow-y: hidden;
+}
+.snowflakes-left {
+  width: 28vw;
+  height: 22vw;
+  /* position: absolute;
+  top: 160.4vw; */
+}
+.snowflakes-right {
+  width: 22.1vw;
+  height: 30.1vw;
+  /* position: absolute;
+  top: 160.4vw; */
 }
 
 .screen-7 {

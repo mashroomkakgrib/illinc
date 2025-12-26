@@ -1,3 +1,11 @@
+@keyframes moving-snowflake {
+  0% {
+    top: -10%;
+  }
+  100% {
+    top: 105%;
+  }
+}
 @keyframes text-color-change {
   0% {
     color: #fffaee;
@@ -27,15 +35,58 @@
   20%,
   30%,
   100% {
-    transition: width(0);
+    width: 4vw;
   }
   50%,
   55%,
   60% {
-    transition: width(0.8vw);
+    width: 20vw;
   }
 }
 
+@keyframes rotate-wreath {
+  0% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animeted-red-bow {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes animeted-black-bow {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+@keyframes animeted-line-snow-odd {
+  0%,
+  100% {
+    transform: translateX(-1vw);
+  }
+  50% {
+    transform: translateX(1vw);
+  }
+}
+@keyframes animeted-line-snow-even {
+  0%,
+  100% {
+    transform: translateX(-1vw);
+  }
+  50% {
+    transform: translateX(0vw);
+  }
+}
 @keyframes animeted-ball {
   0%,
   10%,
@@ -51,19 +102,45 @@
   }
 }
 
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 @keyframes animeted-snowflakes-left {
   0%,
   10%,
   20%,
   30% {
-    transform: translateY(50vw);
-    transform: translateX(50vw);
+    transform: translateX(50vw) translateY(50vw);
   }
   50%,
   55%,
-  60%,
+  60% {
+    transform: translateX(3vw) translateY(-2vw);
+  }
   100% {
-    transform: translateY(0);
-    transform: translateX(50vw);
+    transform: translateX(-16vw) translateY(-5vw);
+  }
+}
+
+@keyframes animeted-snowflakes-right {
+  0%,
+  10%,
+  20%,
+  30% {
+    transform: translateX(-50vw) translateY(50vw);
+  }
+  50%,
+  55%,
+  60% {
+    transform: translateX(0vw) translateY(-1vw);
+  }
+  100% {
+    transform: translateX(22vw) translateY(-11vw);
   }
 }

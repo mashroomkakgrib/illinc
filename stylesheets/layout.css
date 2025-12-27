@@ -34,7 +34,7 @@ body {
   gap: 15vw;
   margin: 0 auto;
   font-size: 2.8vw;
-  font-family: Helvetica;
+  font-family: "Helvetica";
   color: #fffaee;
 }
 .word1 {
@@ -71,7 +71,7 @@ body {
 .screen-1 h2 {
   text-align: center;
   font-size: 31.8vw;
-  font-family: Stark;
+  font-family: "Stark";
   color: #fffaee;
   margin: 0 auto;
 }
@@ -203,13 +203,13 @@ img.snowflake25 {
 }
 .screen-2 h1 {
   font-size: 2.8vw;
-  font-family: Helvetica;
+  font-family: "Helvetica";
   color: #fffaee;
   animation: animeted-text 4s infinite ease-in-out;
 }
 .screen-2 h2 {
   font-size: 8.5vw;
-  font-family: Stark;
+  font-family: "Stark";
   color: #fffaee;
   /* padding: 0 2vw 0 8vw; */
 }
@@ -548,7 +548,7 @@ img.snowflake25 {
 }
 .screen-6 h1 {
   font-size: 11.3vw;
-  font-family: Stark;
+  font-family: "Stark";
   color: #fffaee;
   text-align: center;
   padding: 1.7vw;
@@ -587,7 +587,7 @@ img.snowflake25 {
 }
 .screen-7 h1 {
   font-size: 3.1vw;
-  font-family: Stark;
+  font-family: "Stark";
   color: #12131d;
   margin: auto;
 }

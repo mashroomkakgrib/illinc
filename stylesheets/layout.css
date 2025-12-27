@@ -7,9 +7,6 @@ body {
   height: 258.3vw;
   display: flex;
   flex-direction: column;
-  /* opacity: 0.1;
-  background-image: url("../images/Frame\ 24.png");
-  background-size: cover; */
 }
 
 .screen-1 {
@@ -18,7 +15,7 @@ body {
   gap: 16vw;
   padding: 0.8vw 0;
   width: 100%;
-  height: 51.2vw; /* ничего страшного, что дробные числа? */
+  height: 51.2vw;
   background-image: url("../images/background.png");
   background-size: cover;
   overflow: hidden;
@@ -39,7 +36,6 @@ body {
   font-size: 2.8vw;
   font-family: Helvetica;
   color: #fffaee;
-  /* animation: text-color-change 1s infinite alternate; */
 }
 .word1 {
   animation: text-color-change 1s infinite alternate;
@@ -91,189 +87,119 @@ body {
 }
 img.snowflake1 {
   left: 5vw;
-  animation-delay: -5s;
+  animation-delay: -0.5s;
 }
 img.snowflake2 {
   left: 30vw;
-
-  animation-delay: -8s;
+  animation-delay: -1s;
 }
 img.snowflake3 {
-  position: absolute;
-  top: 9vw;
   left: 61vw;
-  width: 3.1vw;
-  height: 3.1vw;
+  animation-delay: -1.5s;
 }
 img.snowflake4 {
-  position: absolute;
   top: 9.8vw;
-  left: 79vw;
-  width: 3.1vw;
-  height: 3.1vw;
+  animation-delay: -2s;
 }
-.snowflake5 {
-  position: absolute;
-  top: 6vw;
+img.snowflake5 {
+  animation-delay: -2.5s;
   left: 92vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake6 {
-  position: absolute;
-  top: 11vw;
+img.snowflake6 {
+  animation-delay: -3s;
   left: 14vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake7 {
-  position: absolute;
-  top: 13vw;
+img.snowflake7 {
+  animation-delay: -3.5s;
   left: 44vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake8 {
-  position: absolute;
-  top: 17vw;
+img.snowflake8 {
+  animation-delay: -4s;
   left: 71vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake9 {
-  position: absolute;
-  top: 21vw;
+img.snowflake9 {
+  animation-delay: -4.5s;
   left: 87vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake10 {
-  position: absolute;
-  top: 22vw;
+img.snowflake10 {
+  animation-delay: -5s;
   left: 7vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake11 {
-  position: absolute;
-  top: 27vw;
+img.snowflake11 {
+  animation-delay: -5.5s;
   left: 16vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake12 {
-  position: absolute;
-  top: 36vw;
+img.snowflake12 {
+  animation-delay: -6s;
   left: 3vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake13 {
-  position: absolute;
-  top: 17vw;
+img.snowflake13 {
+  animation-delay: -6.5s;
   left: 26vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake14 {
-  position: absolute;
-  top: 41vw;
+img.snowflake14 {
+  animation-delay: -7s;
   left: 15vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake15 {
-  position: absolute;
-  top: 46vw;
+img.snowflake15 {
+  animation-delay: -7.5s;
   left: 9vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake16 {
-  position: absolute;
-  top: 21vw;
+img.snowflake16 {
+  animation-delay: -8s;
   left: 35vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake17 {
-  position: absolute;
-  top: 22vw;
+img.snowflake17 {
+  animation-delay: -8.5s;
   left: 52vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake18 {
-  position: absolute;
-  top: 27vw;
+img.snowflake18 {
+  animation-delay: -9s;
   left: 67vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake19 {
-  position: absolute;
-  top: 33vw;
+img.snowflake19 {
+  animation-delay: -9.5s;
   left: 91vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake20 {
-  position: absolute;
-  top: 43vw;
+img.snowflake20 {
+  animation-delay: -10s;
   left: 52vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake21 {
-  position: absolute;
-  top: 44vw;
+img.snowflake21 {
+  animation-delay: -10.5s;
   left: 82vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake22 {
-  position: absolute;
-  top: 34vw;
+img.snowflake22 {
+  animation-delay: -11.5s;
   left: 82vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake23 {
-  position: absolute;
-  top: 31vw;
+img.snowflake23 {
+  animation-delay: -12s;
   left: 58vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake24 {
-  position: absolute;
-  top: 34vw;
+img.snowflake24 {
+  animation-delay: -12.5s;
   left: 29vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
-.snowflake25 {
-  position: absolute;
-  top: 46vw;
+img.snowflake25 {
+  animation-delay: -13s;
   left: 64vw;
-  width: 3.1vw;
-  height: 3.1vw;
 }
 
 .screen-2 {
+  overflow-x: hidden;
   position: relative;
   display: flex;
   background-color: #ae1100;
   justify-content: space-between;
   height: 10.8vw;
   padding: 0.8vw 2vw;
-  /* gap: 16.3vw; */
 }
 .screen-2-anim {
   position: relative;
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  gap: 16vw;
 }
 .screen-2 h1 {
   font-size: 2.8vw;
@@ -285,59 +211,67 @@ img.snowflake4 {
   font-size: 8.5vw;
   font-family: Stark;
   color: #fffaee;
+  /* padding: 0 2vw 0 8vw; */
 }
 .date {
   animation: animeted-text 4s infinite ease-in-out;
 }
-.dash {
+/* .dash {
   width: 4vw;
   height: 1vw;
   background-color: #fffaee;
   animation: animeted-dash 4s infinite ease-in-out;
   margin-top: 4vw;
-  transform-origin: center left;
-  transform: rotate(180deg) translateX(-4vw);
-}
+} */
 
 .screen-3 {
+  position: relative;
   display: flex;
   flex-wrap: nowrap;
   height: 62.5vw;
 }
 .first-part {
   width: 47.1vw;
+  position: relative;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 .child {
-  height: 52.3vw;
   position: absolute;
-  top: 71vw;
-  padding: 0 2.5vw;
+  top: 2.5vw;
+  left: 2.5vw;
+  height: 58vw;
+  width: 42.2vw;
+  /* animation: animeted-child 1s linear infinite alternate; */
 }
-.back-for-child {
-  height: 45.5vw;
+.child2 {
   position: absolute;
-  top: 65vw;
-  padding: 0 6.6vw;
+  top: 2.5vw;
+  left: 2.6vw;
+  height: 58vw;
+  width: 42.2vw;
+  animation: animeted-child 1.5s linear infinite alternate-reverse;
 }
+
 .light {
-  height: 46.6vw;
-  width: 38.7vw;
+  width: 42.6vw;
+  height: 25.4vw;
   position: absolute;
-  left: 4vw;
-  top: 87vw;
+  left: 2.1vw;
+  top: 35vw;
   opacity: 0;
   transition: opacity 0.5s ease;
 }
 .light:hover {
-  height: 46.6vw;
-  width: 38.7vw;
+  width: 42.6vw;
+  height: 25.4vw;
   position: absolute;
-  left: 4vw;
-  top: 87vw;
+  left: 2.1vw;
+  top: 35vw;
   opacity: 1;
 }
 .second-part {
-  /* overflow: hidden; */
   display: flex;
   flex-wrap: nowrap;
   width: 52.9vw;
@@ -346,54 +280,119 @@ img.snowflake4 {
 .back-wreath {
   height: 20.9vw;
   width: 28.2vw;
+  position: relative;
   background-color: #12131d;
 }
 .wreath {
   position: absolute;
-  top: 62.7vw;
-  left: 51.5vw;
+  top: 0.7vw;
+  left: 4.3vw;
   height: 19.2vw;
   width: 19.2vw;
-  /* padding: 0.8vw 4.1vw; */
-  animation: rotate-wreath 25s linear infinite;
+  animation: rotate-wreath 15s linear infinite;
+}
+.ball1 {
+  position: absolute;
+  top: 4vw;
+  left: 10vw;
+  width: 3vw;
+  height: 3vw;
+  height: 3vw;
+  animation: decoration 0.8s linear infinite alternate;
+}
+.ball2 {
+  position: absolute;
+  top: 7vw;
+  left: 17.3vw;
+  width: 3vw;
+  height: 3vw;
+  animation: decoration 0.8s linear infinite alternate;
+}
+.ball3 {
+  position: absolute;
+  top: 11vw;
+  left: 7.5vw;
+  width: 3vw;
+  height: 3vw;
+  animation: decoration 0.8s linear infinite alternate;
+}
+.ball4 {
+  position: absolute;
+  top: 13.3vw;
+  left: 14.5vw;
+  width: 3vw;
+  height: 3vw;
+  animation: decoration 0.8s linear infinite alternate;
 }
 
+.sts1 {
+  position: absolute;
+  top: 14vw;
+  left: 11.5vw;
+  width: 2vw;
+  height: 2vw;
+  animation: decoration 0.8s linear infinite alternate-reverse;
+}
+.sts2 {
+  position: absolute;
+  top: 4.1vw;
+  left: 14.5vw;
+  width: 2vw;
+  height: 2vw;
+  animation: decoration 0.8s linear infinite alternate-reverse;
+}
+.sts3 {
+  position: absolute;
+  top: 10.8vw;
+  left: 17.6vw;
+  width: 2vw;
+  height: 2vw;
+  animation: decoration 0.8s linear infinite alternate-reverse;
+}
+.sts4 {
+  position: absolute;
+  top: 7.5vw;
+  left: 8.1vw;
+  width: 2vw;
+  height: 2vw;
+  animation: decoration 0.8s linear infinite alternate-reverse;
+}
 .gift {
+  position: relative;
   height: 20.9vw;
   width: 28.2vw;
+  top: 0vw;
+  left: 0vw;
   background-color: #ae1100;
+  background-image: url("../images/back-gift.svg");
+  background-size: 28.2vw 20.9vw;
 }
 
-.back-gift {
-  /* может вписать как background-image в секцию? */
-  height: 20.9vw;
-  width: 28.2vw;
-}
 .tape {
   position: absolute;
-  top: 83.3vw;
-  left: 47.4vw;
-  height: 20.9vw 169.081px;
+  top: 0.5vw;
+  left: 0.5vw;
   width: 27vw;
-  animation: animeted-red-bow 1s alternate-reverse infinite;
+  animation: animeted-tape 1s alternate-reverse infinite;
 }
 .red-bow {
   position: absolute;
-  top: 89vw;
-  left: 56.8vw;
+  top: 6.2vw;
+  left: 9.9vw;
   height: 8.2vw;
   width: 8.2vw;
   animation: animeted-red-bow 1s infinite alternate;
 }
 .black-bow {
   position: absolute;
-  top: 90.4vw;
-  left: 58.3vw;
+  top: 7.7vw;
+  left: 11.3vw;
   height: 5.2vw;
   width: 5.2vw;
   animation: animeted-black-bow 1s infinite alternate;
 }
 .star-block {
+  position: relative;
   height: 20vw;
   width: 28.2vw;
   background-color: #ae1100;
@@ -402,40 +401,46 @@ img.snowflake4 {
 }
 .star {
   position: absolute;
-  top: 105.4vw;
-  left: 52.5vw;
+  top: 1.5vw;
+  left: 5.5vw;
   height: 16.6vw;
   width: 16.6vw;
+  animation: animeted-star 2s infinite alternate;
 }
 .part-star-up {
   position: absolute;
-  top: 105.5vw;
-  left: 65vw;
+  top: 2vw;
+  left: 17.3vw;
   height: 4.7vw;
   width: 4.7vw;
+  animation: animeted-parts-star 2s infinite alternate;
 }
 .part-star-down {
   position: absolute;
-  top: vw;
-  left: vw;
+  top: 12.7vw;
+  left: 5.6vw;
   height: 4.7vw;
   width: 4.7vw;
+  animation: animeted-parts-star 2s infinite alternate;
 }
 .сhristmas-tree {
   height: 62.5vw;
   width: 24.7vw;
   background-color: #12131d;
-  background-image: url("../images/сhristmas-tree1.svg");
+  background-image: url("../images/сhristmas-tree2.svg");
   background-size: 24.7vw 62.5vw;
 }
-.сhristmas-tree2 {
+.сhristmas-tree1 {
+  object-fit: cover;
   height: 62.5vw;
   width: 24.7vw;
+  animation: animated-сhristmas-tree 1s linear infinite alternate;
 }
 
 .screen-4 {
   display: flex;
   flex-wrap: nowrap;
+  position: relative;
   background-color: #12131d;
   height: 30.8vw;
 }
@@ -443,50 +448,50 @@ img.snowflake4 {
   width: 60.8vw;
 }
 .snowdrift {
-  width: 63.2vw;
-  height: 30.6vw;
+  width: 65.8vw;
+  height: 28.7vw;
   position: absolute;
   left: 0vw;
-  top: 124.8vw;
+  top: 2.2vw;
 }
 .first-line {
   width: 52.5vw;
   height: 3.7vw;
   position: absolute;
-  left: 4vw;
-  top: 124.8vw;
+  left: 3vw;
+  top: 0.3vw;
   animation: animeted-line-snow-odd 0.5s infinite alternate;
 }
 .second-line {
-  width: 44.6vw;
+  width: 52.5vw;
   height: 3.7vw;
   position: absolute;
-  left: 8vw;
-  top: 127.4vw;
+  left: 4vw;
+  top: 3vw;
   animation: animeted-line-snow-even 0.5s infinite alternate-reverse;
 }
 .third-line {
-  width: 52.6vw;
-  height: 5.1vw;
+  width: 54.6vw;
+  height: 5.7vw;
   position: absolute;
-  left: 2vw;
-  top: 131.8vw;
+  left: 4vw;
+  top: 7vw;
   animation: animeted-line-snow-odd 0.5s infinite alternate;
 }
 .forth-line {
   width: 32.6vw;
-  height: 6.9vw;
+  height: 7.9vw;
   position: absolute;
   left: 27vw;
-  top: 135.8vw;
+  top: 13vw;
   animation: animeted-line-snow-even 0.5s infinite alternate-reverse;
 }
 .fifth-line {
   width: 13.7vw;
   height: 13.7vw;
   position: absolute;
-  left: 35vw;
-  top: 129.8vw;
+  left: 36vw;
+  top: 6vw;
   animation: animeted-line-snow-odd 0.5s infinite alternate;
 }
 .snowman-block {
@@ -497,34 +502,33 @@ img.snowflake4 {
   height: 29.5vw;
   position: absolute;
   left: 60.8vw;
-  top: 125.8vw;
-  /* padding: 0 0; */
+  top: 1.3vw;
 }
 
 .snowman-with-close {
   width: 39.2vw;
   height: 29.5vw;
-  opacity: 0;
   position: absolute;
   left: 60.8vw;
-  top: 125.8vw;
+  top: 1.3vw;
+  opacity: 0;
   transition: transform 0.5s;
-  /* padding: 0 0; */
 }
 
 .snowman-with-close:hover {
   width: 39.2vw;
   height: 29.5vw;
-  opacity: 1;
   position: absolute;
   left: 60.8vw;
-  top: 125.8vw;
+  top: 1.3vw;
+  opacity: 1;
   /* padding: 0 0; */
 }
 
 .screen-5 {
   height: 31.7vw;
   background-color: #fffaee;
+  overflow-x: hidden;
 }
 .run-stroke {
   display: flex;
@@ -539,9 +543,12 @@ img.snowflake4 {
 }
 
 .screen-6 {
+  display: flex;
+  position: relative;
   height: 62.5vw;
   background-color: #ae1100;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 .screen-6 h1 {
   font-size: 11.3vw;
@@ -554,25 +561,25 @@ img.snowflake4 {
   width: 100vw;
   height: 58.3vw;
   position: absolute;
-  top: 191.2vw;
+  top: 4.2vw;
   left: 0vw;
-  animation: animeted-ball 4s infinite;
+  animation: animeted-ball 3s infinite;
 }
 .snowflakes-left {
   width: 30vw;
   height: 24vw;
   position: absolute;
-  top: 215.4vw;
-  left: -8vw;
-  animation: animeted-snowflakes-left 4s infinite;
+  top: 31vw;
+  left: -10vw;
+  animation: animeted-snowflakes-left 3s infinite;
 }
 .snowflakes-right {
   width: 22.1vw;
   height: 30.1vw;
   position: absolute;
-  top: 215.4vw;
-  left: 82vw;
-  animation: animeted-snowflakes-right 4s infinite;
+  top: 30.2vw;
+  left: 80vw;
+  animation: animeted-snowflakes-right 3s infinite;
 }
 
 .screen-7 {

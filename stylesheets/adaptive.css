@@ -1,6 +1,255 @@
-@media screen and (max-width: 1280px) {
-}
-@media screen and (max-width: 768px) {
-}
 @media screen and (max-width: 320px) {
+  body {
+    width: 100%;
+    height: 471.9vw;
+  }
+  .screen-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 80vw;
+    padding: 0.8vw 0;
+    width: 100%;
+    height: 132.2vw;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    overflow: hidden;
+  }
+  .text-1 {
+    font-size: 4.4vw;
+    gap: 10vw;
+  }
+  .screen-3 {
+    width: 100%;
+    height: 199.7vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+  }
+  .first-part {
+    width: 100%;
+    height: 99vw;
+  }
+  .child {
+    position: absolute;
+    top: 2.5vw;
+    left: 2.5vw;
+    height: 93.4vw;
+    width: 100%;
+  }
+  .child2 {
+    position: absolute;
+    top: 2.5vw;
+    left: 2.5vw;
+    height: 93.4vw;
+    width: 100%;
+  }
+  .light {
+    width: 100%;
+    height: 39.8vw;
+    position: absolute;
+    left: 2.1vw;
+    top: 56vw;
+    opacity: 0;
+  }
+  .light:hover {
+    width: 100%;
+    height: 39.8vw;
+    position: absolute;
+    left: 2.1vw;
+    top: 56vw;
+    opacity: 1;
+  }
+  .second-part {
+    width: 100%;
+    height: 100.5vw;
+  }
+  .left {
+    width: 100%;
+    height: 100.5vw;
+  }
+  .back-wreath {
+    height: 33.6vw;
+    width: 100%;
+  }
+  .wreath {
+    position: absolute;
+    top: 1vw;
+    left: 8.3vw;
+    height: 30.9vw;
+    width: 30.9vw;
+    /* animation: rotate-wreath 15s linear infinite; */
+  }
+  .ball1 {
+    position: absolute;
+    top: 6vw;
+    left: 17vw;
+    width: 4.8vw;
+    height: 4.8vw;
+  }
+  .ball2 {
+    position: absolute;
+    top: 12vw;
+    left: 30vw;
+    width: 4.8vw;
+    height: 4.8vw;
+    /* animation: decoration 0.8s linear infinite alternate; */
+  }
+  .ball3 {
+    position: absolute;
+    top: 18vw;
+    left: 13.5vw;
+    width: 4.8vw;
+    height: 4.8vw;
+    animation: decoration 0.8s linear infinite alternate;
+  }
+  .ball4 {
+    position: absolute;
+    top: 21.3vw;
+    left: 24.5vw;
+    width: 4.8vw;
+    height: 4.8vw;
+    animation: decoration 0.8s linear infinite alternate;
+  }
+
+  .sts1 {
+    position: absolute;
+    top: 11.5vw;
+    left: 13.5vw;
+    width: 3.9vw;
+    height: 3.9vw;
+    animation: decoration 0.8s linear infinite alternate-reverse;
+  }
+  .sts2 {
+    position: absolute;
+    top: 7.1vw;
+    left: 25.5vw;
+    width: 3.9vw;
+    height: 3.9vw;
+    animation: decoration 0.8s linear infinite alternate-reverse;
+  }
+  .sts3 {
+    position: absolute;
+    top: 21.5vw;
+    left: 19.1vw;
+    width: 3.9vw;
+    height: 3.9vw;
+    animation: decoration 0.8s linear infinite alternate-reverse;
+  }
+  .sts4 {
+    position: absolute;
+    top: 17.5vw;
+    left: 29.1vw;
+    width: 3.9vw;
+    height: 3.9vw;
+    animation: decoration 0.8s linear infinite alternate-reverse;
+  }
+  .gift {
+    position: relative;
+    height: 33.6vw;
+    width: 100%;
+    top: 0vw;
+    left: 0vw;
+    background-color: #ae1100;
+    background-image: url("../images/back-gift.svg");
+    background-size: 100% 33.6vw;
+  }
+
+  .tape {
+    position: absolute;
+    top: 0.5vw;
+    left: -0.5vw;
+    height: 32vw;
+    width: 100%;
+    animation: animeted-tape 1s alternate-reverse infinite;
+  }
+  .red-bow {
+    position: absolute;
+    top: 9.9vw;
+    left: 17.6vw;
+    height: 13.1vw;
+    width: 13.1vw;
+    animation: animeted-red-bow 1s infinite alternate;
+  }
+  .black-bow {
+    position: absolute;
+    top: 13.7vw;
+    left: 20.8vw;
+    height: 5.7vw;
+    width: 6.7vw;
+    animation: animeted-black-bow 1s infinite alternate;
+  }
+  .star-block {
+    position: relative;
+    height: 33vw;
+    width: 100%;
+    background-color: #ae1100;
+    background-image: url("../images/back-star.svg");
+    background-size: 100% 33vw;
+  }
+  .star {
+    top: 4.5vw;
+    left: 13.7vw;
+    height: 22.4vw;
+    width: 22.4vw;
+    animation: animeted-star 2s infinite alternate;
+  }
+  .part-star-up {
+    position: absolute;
+    top: 3.7vw;
+    left: 30.6vw;
+    height: 7.7vw;
+    width: 7.7vw;
+    animation: animeted-parts-star 2s infinite alternate;
+  }
+  .part-star-down {
+    position: absolute;
+    top: 20.7vw;
+    left: 12.6vw;
+    height: 7.7vw;
+    width: 7.7vw;
+    animation: animeted-parts-star 2s infinite alternate;
+  }
+  .right {
+    width: 100%;
+    height: 100.5vw;
+  }
+  .сhristmas-tree {
+    height: 100.5vw;
+    width: 100%;
+    background-color: #12131d;
+    background-image: url("../images/сhristmas-tree2.svg");
+    background-size: 50.2vw 126.5vw;
+  }
+  .сhristmas-tree1 {
+    object-fit: cover;
+    height: 62.5vw;
+    width: 50.7vw;
+    animation: animated-сhristmas-tree 1s linear infinite alternate;
+  }
+
+  .screen-4 {
+    width: 100%;
+    height: 30.9vw;
+  }
+  .screen-5 {
+    width: 100%;
+    height: 67.2vw;
+  }
+  .run-stroke {
+    width: 740%;
+  }
+  .run-stroke img {
+    height: 58.6vw;
+    width: 100%;
+  }
+
+  .screen-6 {
+    width: 100%;
+    height: 62.5vw;
+  }
+  .screen-7 {
+    width: 100%;
+    height: 8.3vw;
+  }
 }

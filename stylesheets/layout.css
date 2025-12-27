@@ -233,9 +233,6 @@ img.snowflake25 {
 .first-part {
   width: 47.1vw;
   position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 .child {
   position: absolute;
@@ -522,7 +519,6 @@ img.snowflake25 {
   left: 60.8vw;
   top: 1.3vw;
   opacity: 1;
-  /* padding: 0 0; */
 }
 
 .screen-5 {
